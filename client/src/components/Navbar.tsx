@@ -4,7 +4,7 @@ import LogoutButton from "./ui/LogoutButton";
 
 const Navbar = () => {
   return (
-    <div className="flex flex-col gap-4 mr-[2px] sm:mr-2 pt-12">
+    <div className="flex flex-col gap-4 sm:mr-2 pt-12 mr-auto">
       {NavButtons.map((button) => (
         <NavButton key={button.id} followingHref={button.href}>
           {button.icon}
